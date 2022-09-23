@@ -10,7 +10,6 @@ import co.edu.uniandes.dse.parcialejemplo.entities.HotelEntity;
 @Repository
 public interface HotelRepository extends JpaRepository<HotelEntity, Long> {
     Optional<HotelEntity> findById(Long id);
-    Optional<HotelEntity> findByNumIdentificacion(int numIdentificacion); 
     Optional<HotelEntity> findByNombre(String nombre); 
 
 }
