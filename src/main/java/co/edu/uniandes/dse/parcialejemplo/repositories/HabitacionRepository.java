@@ -11,6 +11,5 @@ import co.edu.uniandes.dse.parcialejemplo.entities.HabitacionEntity;
 public interface HabitacionRepository extends JpaRepository<HabitacionEntity, Long> {
 
     Optional<HabitacionEntity> findById(Long id);
-    Optional<HabitacionEntity> findByNombre(String nombre); 
 
 }
